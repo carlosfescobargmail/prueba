@@ -13,7 +13,7 @@ USER jboss
 RUN cd $home && wget http://portal.senasofiaplus.edu.co/emprendimiento/jboss-4.2.2.GA.zip && unzip jboss-4.2.2.GA.zip && rm jboss-4.2.2.GA.zip
 # RUN cd $home && wget http://sourceforge.net/projects/jboss/files/JBoss/JBoss-4.2.2.GA/jboss-4.2.2.GA.zip && unzip jboss-4.2.2.GA.zip && rm jboss-4.2.2.GA.zip
 
-RUN chmod -R +x bin
+RUN chmod -R +x jboss-4.2.2.GA/bin/
 
 # Enable remote debugging 
 ENV JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8000
