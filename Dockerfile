@@ -26,6 +26,8 @@ EXPOSE 8080 9990 8000
 
 # Configurations
 ENV JBOSS_HOME=/opt/jboss/jboss-4.2.2.GA
+ENV JAVA_HOME /usr/lib/jvm/jre-1.6.0-openjdk.x86_64
+
 
 # Set the default command to run on boot
 # CMD ["/opt/jboss/jboss-4.2.2.GA/bin/run.sh", "-b", "0.0.0.0"]
