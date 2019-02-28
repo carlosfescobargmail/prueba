@@ -9,9 +9,9 @@ RUN yum -y install java-1.6.0-openjdk --nogpgcheck && \
 # Install JBOSS 4.2.3
 RUN yum -y install wget
 USER jboss
-# RUN cd $home && wget http://sourceforge.net/projects/jboss/files/JBoss/JBoss-4.2.3.GA/jboss-4.2.3.GA.zip && unzip jboss-4.2.3.GA.zip && rm jboss-4.2.3.GA.zip
+RUN cd $home && wget http://sourceforge.net/projects/jboss/files/JBoss/JBoss-4.2.3.GA/jboss-4.2.3.GA.zip && unzip jboss-4.2.3.GA.zip && rm jboss-4.2.3.GA.zip
 #RUN cd $home && wget http://portal.senasofiaplus.edu.co/emprendimiento/jboss-4.2.2.GA.zip && unzip jboss-4.2.2.GA.zip && rm jboss-4.2.2.GA.zip
-RUN cd $home && wget http://sourceforge.net/projects/jboss/files/JBoss/JBoss-4.2.2.GA/jboss-4.2.2.GA.zip && unzip jboss-4.2.2.GA.zip && rm jboss-4.2.2.GA.zip
+#RUN cd $home && wget http://sourceforge.net/projects/jboss/files/JBoss/JBoss-4.2.2.GA/jboss-4.2.2.GA.zip && unzip jboss-4.2.2.GA.zip && rm jboss-4.2.2.GA.zip
 
 RUN chmod -R +x jboss-4.2.2.GA/bin/
 
