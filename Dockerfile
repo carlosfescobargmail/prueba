@@ -1,5 +1,5 @@
 FROM jboss/base-jdk:8
-MAINTAINER Carlos Escobar <carlosfescobar@hotmail.com>
+MAINTAINER Carlos Escobar cuellar <carlosfescobar@hotmail.com>
 
 # Install java 1.6
 USER root
