@@ -32,3 +32,5 @@ ENV JAVA_HOME /usr/lib/jvm/jre-1.6.0-openjdk.x86_64
 # Set the default command to run on boot
 # CMD ["/opt/jboss/jboss-4.2.2.GA/bin/run.sh", "-b", "0.0.0.0"]
 CMD ["/opt/jboss/jboss-4.2.2.GA/bin/run.sh", "-b", "0.0.0.0"]
+
+#### Prueba
